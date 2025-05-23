@@ -45,7 +45,7 @@ $query = mysqli_query($koneksi,$sql);
             <td><?=$produk['id_kategori']?></td>
             <td><?=$produk['nama']?></td>
             <td>
-                <img src="../uploads/<?=$produk['foto']?>" alt="" height="100"> 
+                <img src="../images/<?=$produk['foto']?>" alt="" height="100"> 
             </td>
             <td><?=$produk['deskripsi']?></td>
             <td><?=$produk['harga']?></td>
