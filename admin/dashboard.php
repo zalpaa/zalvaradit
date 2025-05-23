@@ -9,6 +9,7 @@ if(!isset($_SESSION['id'])) {
 }
 
 
+
 $sql = "SELECT * FROM produk"; 
 $query = mysqli_query($koneksi,$sql); 
  
@@ -22,8 +23,6 @@ $query = mysqli_query($koneksi,$sql);
 </head>
 <body>
     <h1>Produk</h1>
-    
-    <h1>adasah</h1>
     <a href="logout.php">Logout</a><br><br>
     <a href = "tambah.php">Tambah</a><br><br>
 
